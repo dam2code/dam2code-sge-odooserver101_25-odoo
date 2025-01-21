@@ -1,0 +1,583 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_sale
+# 
+# Translators:
+# Martin Trigaux, 2023
+# Sarah Park, 2023
+# Wil Odoo, 2024
+# Daye Jeong, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~16.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-30 05:09+0000\n"
+"PO-Revision-Date: 2023-05-30 09:25+0000\n"
+"Last-Translator: Daye Jeong, 2024\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "(left:"
+msgstr "(왼쪽:"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
+#, python-format
+msgid "(tax incl.)"
+msgstr "(세금 포함)"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
+msgid "<span style=\"margin: 0px 5px;\">:</span>"
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "A new order has been created."
+msgstr "새로운 주문이 생성되었습니다."
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Apply a down payment (fixed amount)"
+msgstr "계약금 적용 (고정 금액)"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Apply a down payment (percentage)"
+msgstr "계약금 적용 (%)"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Back"
+msgstr "뒤로"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/MobileSaleOrderManagementScreen.xml:0
+#, python-format
+msgid "Back to list"
+msgstr "목록으로 돌아가기"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Cancelled"
+msgstr "취소됨"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_res_config_settings
+msgid "Config Settings"
+msgstr "설정 구성"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
+msgid "Currency Rate"
+msgstr "환율"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Customer"
+msgstr "고객"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Customer loading error"
+msgstr "고객 정보 불러오기에 오류가 있습니다"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Date"
+msgstr "일자"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.message_body
+msgid "Delivered from"
+msgstr "다음에서 배송 진행"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Do you want to load the SN/Lots linked to the Sales Order?"
+msgstr "판매 주문에 연결되어 있는 일련번호나 로트번호를 불러오시겠습니까?"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Down Payment"
+msgstr "계약금"
+
+#. module: pos_sale
+#: model:product.template,name:pos_sale.default_downpayment_product_product_template
+msgid "Down Payment (POS)"
+msgstr "계약금 (POS)"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
+msgid "Down Payment Details"
+msgstr "계약금 세부 정보"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
+#: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_down_payment_product_id
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Down Payment Product"
+msgstr "계약금 품목"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Due balance: %s"
+msgstr "미결제 잔액: %s"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "E.g. customer: Steward, date: 2020-05-09"
+msgstr "예: 고객명: 홍길동, 일자: 2020-05-09"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Error amount too high"
+msgstr "오류가 너무 많습니다."
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/ReceiptScreen/OrderReceipt.xml:0
+#: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
+#, python-format
+msgid "From"
+msgstr "시작 시간"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__invoiced
+msgid "Invoiced"
+msgstr "발행 완료된 청구서"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid ""
+"It seems that you didn't configure a down payment product in your point of sale.\n"
+"                        You can go to your point of sale configuration to choose one."
+msgstr ""
+"POS에 계약금 품목이 설정되어 있지 않습니다.\n"
+"                         구성 메뉴로 이동하여 선택하시기 바랍니다."
+
+#. module: pos_sale
+#. odoo-python
+#: code:addons/pos_sale/models/sale_order.py:0
+#, python-format
+msgid "Linked POS Orders"
+msgstr "연결된 POS 주문"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
+msgid "Linked Sale Order"
+msgstr "연결된 판매 주문"
+
+#. module: pos_sale
+#. odoo-python
+#: code:addons/pos_sale/models/pos_order.py:0
+#, python-format
+msgid "Linked Sale Orders"
+msgstr "연결된 판매 주문"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Locked"
+msgstr "잠김"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__pos_draft
+msgid "New"
+msgstr "신규"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Next Order List"
+msgstr "다음 주문 목록"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "No"
+msgstr "아니오"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "No down payment product"
+msgstr "계약금 없는 품목"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
+msgid "Open POS Sessions"
+msgstr "POS 창 열기"
+
+#. module: pos_sale
+#: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
+msgid "Open Sessions"
+msgstr "자료 생성"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Order"
+msgstr "주문"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
+msgid "Order lines Transfered to Point of Sale"
+msgstr "POS로 이전된 주문 내역"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__paid
+msgid "Paid"
+msgstr "지불됨"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS 환경 설정"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_order_line
+msgid "Point of Sale Order Lines"
+msgstr "점포판매시스템 주문 명세"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "점포판매시스템 주문"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_pos_session
+msgid "Point of Sale Session"
+msgstr "점포판매시스템 기간"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_config_ids
+msgid "Point of Sales"
+msgstr "점포판매시스템"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_count
+msgid "Pos Order Count"
+msgstr "POS 주문 수량"
+
+#. module: pos_sale
+#: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__pos_done
+msgid "Posted"
+msgstr "발행 완료"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderManagementControlPanel.xml:0
+#, python-format
+msgid "Previous Order List"
+msgstr "이전 주문 목록"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Products not available in POS"
+msgstr "POS에서 사용할 수 없는 품목"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Quotation"
+msgstr "견적서"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#, python-format
+msgid "Quotation Sent"
+msgstr "견적 발송"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
+#, python-format
+msgid "Quotation/Order"
+msgstr "견적/주문"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "SN/Lots Loading"
+msgstr "일련번호/로트번호 불러오는 중"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
+#: code:addons/pos_sale/static/src/xml/ProductScreen/Orderline.xml:0
+#, python-format
+msgid "SO"
+msgstr "판매주문서"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
+msgid "Sale Order Count"
+msgstr "판매 주문 수"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Sales"
+msgstr "판매"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "판매 분석 보고서"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderRow.js:0
+#: model:ir.model,name:pos_sale.model_sale_order
+#, python-format
+msgid "Sales Order"
+msgstr "판매 주문"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "판매 주문 내역"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_crm_team
+#: model:ir.model.fields,field_description:pos_sale.field_pos_config__crm_team_id
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order__crm_team_id
+#: model:ir.model.fields,field_description:pos_sale.field_pos_session__crm_team_id
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Sales Team"
+msgstr "영업팀"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
+msgid "Sales Team (PoS)"
+msgstr "영업팀 (POS)"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "Sales are reported to the following sales team"
+msgstr "판매는 다음 영업 팀에 보고됩니다."
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Salesman"
+msgstr "판매사원"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#, python-format
+msgid "Salesperson"
+msgstr "영업사원"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
+msgid "Session Running"
+msgstr "세션 운영"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_order_amount_total
+msgid "Session Sale Amount"
+msgstr "세션 판매 금액"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_view_kanban_dashboard
+msgid "Sessions Running"
+msgstr "세션 실행"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
+#: code:addons/pos_sale/static/src/xml/SetSaleOrderButton.xml:0
+#, python-format
+msgid "Set Sale Order"
+msgstr "판매주문서 설정"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Settle the order"
+msgstr "주문 건 결제"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid ""
+"Some of the products in your Sale Order are not available in POS, do you "
+"want to import them?"
+msgstr "판매주문서의 일부 품목은 POS에서 사용할 수 없습니다. 가져오기를 진행할까요?"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
+msgid "Source Sale Order Line"
+msgstr "원본 판매주문서 내역"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "State"
+msgstr "시/도"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_report__state
+msgid "Status"
+msgstr "상태"
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_sale_order__amount_unpaid
+msgid "The amount due from the sale order."
+msgstr "판매주문서에 대한 미결제 금액입니다."
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_order__currency_rate
+msgid ""
+"The rate of the currency to the currency of rate applicable at the date of "
+"the order"
+msgstr "주문 날짜에 적용되는 환율에 대한 환율"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "There was a problem in loading the %s customer."
+msgstr "%s 고객 정보를 불러오는 중에 문제가 발생했습니다."
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_config__crm_team_id
+#: model:ir.model.fields,help:pos_sale.field_pos_session__crm_team_id
+#: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
+msgid "This Point of sale's sales will be related to this Sales Team."
+msgstr "이 POS의 판매는 이 판매 팀과 관련이 있습니다."
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
+msgid "This product will be applied when down payment is made"
+msgstr "계약금 결제 시 적용되는 품목입니다."
+
+#. module: pos_sale
+#: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
+#: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
+msgid "This product will be used as down payment on a sale order."
+msgstr "판매주문서 계약금으로 사용되는 품목입니다."
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderList.xml:0
+#: code:addons/pos_sale/static/src/xml/OrderManagementScreen/SaleOrderRow.xml:0
+#, python-format
+msgid "Total"
+msgstr "총계"
+
+#. module: pos_sale
+#: model:ir.model,name:pos_sale.model_stock_picking
+msgid "Transfer"
+msgstr "이동"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.view_pos_order_form_inherit_pos_sale
+msgid ""
+"Transfered<br/>\n"
+"                                from Sale"
+msgstr ""
+"판매에서<br/>\n"
+"                                이동"
+
+#. module: pos_sale
+#: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
+msgid ""
+"Transfered<br/>\n"
+"                                to POS"
+msgstr ""
+"POS로<br/>\n"
+"                                이동"
+
+#. module: pos_sale
+#: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
+msgid "Unpaid Amount"
+msgstr "미납액"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "What do you want to do?"
+msgstr "무엇을 하고 싶습니까?"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid "Yes"
+msgstr "예"
+
+#. module: pos_sale
+#. odoo-javascript
+#: code:addons/pos_sale/static/src/js/OrderManagementScreen/SaleOrderManagementScreen.js:0
+#, python-format
+msgid ""
+"You have tried to charge a down payment of %s but only %s remains to be "
+"paid, %s will be applied to the purchase order line."
+msgstr "%s 의 계약금을 청구하셨으나 지불 가능한 금액은 %s 입니다. %s 금액은 구매발주서 내역에서 적용됩니다. "

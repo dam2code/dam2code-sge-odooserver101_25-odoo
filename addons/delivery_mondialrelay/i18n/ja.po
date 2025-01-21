@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delivery_mondialrelay
+# 
+# Translators:
+# Andy Yiu, 2023
+# Ryoko Tsuda <ryoko@quartile.co>, 2023
+# Martin Trigaux, 2023
+# Junko Augias, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~16.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-26 06:30+0000\n"
+"PO-Revision-Date: 2023-05-30 09:25+0000\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_brand
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_delivery_carrier__mondialrelay_brand
+msgid "Brand Code"
+msgstr "ブランドコード"
+
+#. module: delivery_mondialrelay
+#: model:ir.model,name:delivery_mondialrelay.model_res_partner
+msgid "Contact"
+msgstr "連絡先"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__shipping_country_code
+msgid "Country Code"
+msgstr "国コード"
+
+#. module: delivery_mondialrelay
+#: model:ir.model,name:delivery_mondialrelay.model_choose_delivery_carrier
+msgid "Delivery Carrier Selection Wizard"
+msgstr "配送業者選択ガイド"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__is_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_delivery_carrier__is_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_res_partner__is_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_res_users__is_mondialrelay
+msgid "Is Mondialrelay"
+msgstr "Mondialrelayか"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_last_selected
+msgid "Last Relay Selected"
+msgstr "選択された最後の中継"
+
+#. module: delivery_mondialrelay
+#: model:delivery.carrier,name:delivery_mondialrelay.delivery_carrier_mondialrelay_be_lu
+#: model:delivery.carrier,name:delivery_mondialrelay.delivery_carrier_mondialrelay_es
+#: model:delivery.carrier,name:delivery_mondialrelay.delivery_carrier_mondialrelay_fr_nl
+#: model:product.template,name:delivery_mondialrelay.product_product_delivery_mondialrelay_product_template
+msgid "Mondial Relay"
+msgstr "Mondial Relay"
+
+#. module: delivery_mondialrelay
+#. odoo-python
+#: code:addons/delivery_mondialrelay/models/sale_order.py:0
+#, python-format
+msgid ""
+"Mondial Relay mismatching between delivery method and shipping address."
+msgstr "Mondial Relay 配送方法と配送先住所の不一致。"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_allowed_countries
+msgid "Mondialrelay Allowed Countries"
+msgstr "Mondialrelay許可国"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_last_selected_id
+msgid "Mondialrelay Last Selected"
+msgstr "Mondialrelay最終選択"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__mondialrelay_colLivMod
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_delivery_carrier__mondialrelay_packagetype
+msgid "Mondialrelay Packagetype"
+msgstr "Mondialrelayパッケージタイプ"
+
+#. module: delivery_mondialrelay
+#. odoo-python
+#: code:addons/delivery_mondialrelay/models/delivery_carrier.py:0
+#, python-format
+msgid "Operation not supported"
+msgstr "操作はサポートされていません"
+
+#. module: delivery_mondialrelay
+#. odoo-python
+#: code:addons/delivery_mondialrelay/wizard/choose_delivery_carrier.py:0
+#, python-format
+msgid "Please, choose a Parcel Point"
+msgstr "どうぞ集荷場所を選んで下さい"
+
+#. module: delivery_mondialrelay
+#: model:ir.model,name:delivery_mondialrelay.model_sale_order
+msgid "Sales Order"
+msgstr "販売オーダ"
+
+#. module: delivery_mondialrelay
+#: model:ir.model,name:delivery_mondialrelay.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "配送方法"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,help:delivery_mondialrelay.field_choose_delivery_carrier__shipping_country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"ISOの国別コードは2文字です。\n"
+"これを使ってクイックサーチできます。"
+
+#. module: delivery_mondialrelay
+#: model:ir.model.fields,field_description:delivery_mondialrelay.field_choose_delivery_carrier__shipping_zip
+msgid "Zip"
+msgstr "郵便番号"
