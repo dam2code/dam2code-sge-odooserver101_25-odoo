@@ -1,0 +1,174 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_slides_forum
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Malaz Abuidris <msea@odoo.com>, 2022
+# Niyas Raphy, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-07 10:47+0000\n"
+"PO-Revision-Date: 2019-03-20 15:01+0000\n"
+"Last-Translator: Niyas Raphy, 2022\n"
+"Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.slide_fullscreen
+msgid ""
+"<i class=\"fa fa-comments\"/><span class=\"ml-1 d-none d-md-inline-"
+"block\">New Post</span>"
+msgstr ""
+"<i class=\"fa fa-comments\"/><span class=\"ml-1 d-none d-md-inline-"
+"block\">منشور جديد</span> "
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "<i class=\"fa fa-home\"/> Course"
+msgstr "<i class=\"fa fa-home\"/>الدورة "
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Check our Courses <i class=\"fa fa-chevron-right\"/>"
+msgstr "ألق نظرة على دوراتنا <i class=\"fa fa-chevron-right\"/> "
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
+msgid "Come back later to monitor and moderate what is posted on your Forums."
+msgstr "عد لاحقًا لمراقبة وتعديل ما يتم نشره في منتدياتك."
+
+#. module: website_slides_forum
+#. openerp-web
+#: code:addons/website_slides_forum/static/src/xml/website_slides_forum_channel.xml:0
+#, python-format
+msgid "Communication"
+msgstr "التواصل "
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_slide_channel
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_id
+msgid "Course"
+msgstr "الدورة "
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_id
+msgid "Course Forum"
+msgstr "منتدى الدورة"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Courses"
+msgstr "الدورات"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Courses Discussions"
+msgstr "مناقشات الدورات "
+
+#. module: website_slides_forum
+#. openerp-web
+#: code:addons/website_slides_forum/static/src/xml/website_slides_forum_channel.xml:0
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_forum_action_channel
+#, python-format
+msgid "Create a Forum"
+msgstr "إنشاء منتدى"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "Description"
+msgstr "الوصف"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__slide_channel_ids
+msgid "Edit the course linked to this forum on the course form."
+msgstr "قم بتحرير الدورة المرتبطة بهذا المنتدى في استمارة الدورة. "
+
+#. module: website_slides_forum
+#: model:ir.model,name:website_slides_forum.model_forum_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.course_main
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Forum"
+msgstr "المنتدى"
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_post_action_channel
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_channel_inherit_view_form
+msgid "Forum Posts"
+msgstr "منشورات المنتدى "
+
+#. module: website_slides_forum
+#: model:ir.model.fields,help:website_slides_forum.field_forum_forum__visibility
+msgid ""
+"Forum linked to a Course, the visibility is the one applied on the course."
+msgstr "المنتدى المرتبط بدورة، إمكانية الرؤية هي المطبقة في الدورة. "
+
+#. module: website_slides_forum
+#: model:ir.actions.act_window,name:website_slides_forum.forum_forum_action_channel
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_forum
+msgid "Forums"
+msgstr "المنتديات"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_forum_action_channel
+msgid "Forums allow your attendees to ask questions to your community."
+msgstr "تسمح المنتديات للحاضرين بطرح الأسئلة على مجتمعك."
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.res_config_settings_view_form
+msgid "Manage Forums"
+msgstr "إدارة المنتديات"
+
+#. module: website_slides_forum
+#: model_terms:ir.actions.act_window,help:website_slides_forum.forum_post_action_channel
+msgid "No Forum Post yet!"
+msgstr "لا يوجد منتدى آخر بعد!"
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_slide_channel__forum_total_posts
+msgid "Number of active forum posts"
+msgstr "عدد منشورات المنتدى النشطة "
+
+#. module: website_slides_forum
+#: model:ir.model.constraint,message:website_slides_forum.constraint_slide_channel_forum_uniq
+msgid "Only one course per forum!"
+msgstr "دورة واحدة فقط لكل منتدى "
+
+#. module: website_slides_forum
+#: model:ir.ui.menu,name:website_slides_forum.website_slides_menu_forum_post
+msgid "Posts"
+msgstr "المنشورات "
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_header
+msgid "Reviews"
+msgstr "التقييمات "
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.website_slides_forum_index
+msgid "See all Courses"
+msgstr "رؤية كافة الدورات "
+
+#. module: website_slides_forum
+#: model:ir.model.fields,field_description:website_slides_forum.field_forum_forum__visibility
+msgid "Visibility"
+msgstr "الظهور"
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_forum_view_form
+msgid "eLearning"
+msgstr "التعلم الإلكتروني "
+
+#. module: website_slides_forum
+#: model_terms:ir.ui.view,arch_db:website_slides_forum.forum_post_view_graph_slides
+msgid "eLearning Forum Posts"
+msgstr "منشورات منتدى التعلم الإلكتروني "
