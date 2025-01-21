@@ -1,0 +1,87 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* im_livechat_mail_bot
+# 
+# Translators:
+# Wil Odoo, 2024
+# Tony Ng, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~17.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-20 09:02+0000\n"
+"PO-Revision-Date: 2024-03-27 13:34+0000\n"
+"Last-Translator: Tony Ng, 2024\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid ""
+"Good, you can customize canned responses in the Discuss "
+"application.<br/><br/><b>It's the end of this overview</b>, you can now "
+"<b>close this conversation</b> or start the tour again with typing <span "
+"class=\"o_odoobot_command\">start the tour</span>. Enjoy discovering Odoo!"
+msgstr ""
+"好，你可在聊天應用程式內，自訂預設回覆。<br/><br/><b>本概覽到此結束</b>，你現在可以<b>關閉此對話</b>，或輸入「<span "
+"class=\"o_odoobot_command\">start the tour</span>」重新開始導覽。希望你享受探索 Odoo 功能的樂趣！"
+
+#. module: im_livechat_mail_bot
+#: model:ir.model,name:im_livechat_mail_bot.model_mail_bot
+msgid "Mail Bot"
+msgstr "信件機器人"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid ""
+"Not sure what you are doing. Please, type %s and wait for the propositions. "
+"Select one of them and press enter."
+msgstr "不肯定你想做甚麼。請鍵入「%s」並等待建議顯示，選取其中一項，然後按輸入鍵。"
+
+#. module: im_livechat_mail_bot
+#: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__odoobot_state
+msgid "OdooBot Status"
+msgstr "OdooBot 狀態"
+
+#. module: im_livechat_mail_bot
+#: model:ir.model.fields.selection,name:im_livechat_mail_bot.selection__res_users__odoobot_state__onboarding_canned
+msgid "Onboarding canned"
+msgstr "新手簡介預製"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid "Thanks"
+msgstr "謝謝"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid "Thanks for your feedback. Goodbye!"
+msgstr "感謝回應意見。再見！"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid "This is a temporary canned response to see how canned responses work."
+msgstr "這是一個臨時的預設回應，展示預設回應是如何運作。"
+
+#. module: im_livechat_mail_bot
+#: model:ir.model,name:im_livechat_mail_bot.model_res_users
+msgid "User"
+msgstr "使用者"
+
+#. module: im_livechat_mail_bot
+#. odoo-python
+#: code:addons/im_livechat_mail_bot/models/mail_bot.py:0
+msgid ""
+"Wonderful! 😇<br/>Try typing %s to use canned responses. I've created a "
+"temporary one for you."
+msgstr "真好！ 😇<br/>試試輸入 %s 使用預設回覆。我已為你建立一個預設回覆，作臨時使用。"
