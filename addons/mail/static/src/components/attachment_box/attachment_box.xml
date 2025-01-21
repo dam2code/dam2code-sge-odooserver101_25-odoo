@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="mail.AttachmentBox" owl="1">
+        <div class="o_AttachmentBox" t-attf-class="{{ className }}" t-ref="root">
+            <t t-if="attachmentBoxView">
+                <div class="o_AttachmentBox_title">
+                    <hr class="o_AttachmentBox_dashedLine"/>
+                    <span class="o_AttachmentBox_titleText">
+                        Attachments
+                    </span>
+                    <hr class="o_AttachmentBox_dashedLine"/>
+                </div>
+                <div class="o_AttachmentBox_content">
+                    <t t-if="isDropZoneVisible.value">
+                        <DropZone
+                            className="'o_AttachmentBox_dropZone'"
+                            onDropzoneFilesDropped="_onDropZoneFilesDropped"
+                            t-ref="dropzone"
+                        />
+                    </t>
+                    <t t-if="attachmentBoxView.chatter.attachmentList">
+                        <AttachmentList
+                            className="'o_attachmentBox_attachmentList'"
+                            attachmentListLocalId="attachmentBoxView.chatter.attachmentList.localId"
+                            onAttachmentRemoved="attachmentBoxView.onAttachmentRemoved"
+                        />
+                    </t>
+                    <button class="o_AttachmentBox_buttonAdd btn btn-link" type="button" t-on-click="attachmentBoxView.onClickAddAttachment">
+                        <i class="fa fa-plus-square"/>
+                        Add attachments
+                    </button>
+                </div>
+                <FileUploader
+                    threadLocalId="attachmentBoxView.chatter.thread.localId"
+                    onAttachmentCreated="attachmentBoxView.onAttachmentCreated"
+                    t-ref="fileUploader"
+                />
+            </t>
+        </div>
+    </t>
+
+</templates>
