@@ -1,0 +1,5 @@
+.o_dragged {
+    position: fixed !important;
+    z-index: 1000 !important;
+    pointer-events: none;
+}
