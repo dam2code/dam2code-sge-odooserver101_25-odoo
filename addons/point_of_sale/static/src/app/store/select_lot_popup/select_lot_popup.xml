@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale.EditListPopup">
+        <Dialog title="props.title">
+            <t t-set-slot="header">
+                <h4 class="modal-title title" t-esc="props.title" />
+                <span class="sub-title" t-esc="props.name"/>
+            </t>
+            <div t-ref="root">
+                <t t-foreach="state.array" t-as="item" t-key="item._id">
+                    <EditListInput item="item" createNewItem.bind="createNewItem" removeItem="() => this.removeItem(item._id)"
+                                    deletable="_hasMoreThanOneItem()" onInputChange.bind="onInputChange" />
+                </t>
+             </div>
+            <t t-set-slot="footer">
+                <button class="btn btn-primary o-default-button" t-on-click="confirm">Ok</button>
+            </t>
+       </Dialog>
+    </t>
+</templates>
